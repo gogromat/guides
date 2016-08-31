@@ -110,7 +110,7 @@ use `preventDefault=false`:
 With `preventDefault=false` omitted, if the user clicked on the link, Ember.js
 will trigger the action, but the user will remain on the current page.
 
-With `preventDefault=false` present, if the user clicked on the link, Ember.js
+With `preventDefault=true` present, if the user clicked on the link, Ember.js
 will trigger the action *and* the user will be directed to the new page.
 
 ## Modifying the action's first parameter
